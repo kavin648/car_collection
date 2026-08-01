@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BMW Collection</title>
+</head>
+<body class="bg-gray-100">
+
+  <nav class="bg-[#D42400] text-white fixed top-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-5 py-4">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-3">
+            <img src="D:\header_logo.png" class="h-10">
+            <h1 class="text-3xl font-bold">FUSION CARS</h1>
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex gap-8 font-semibold">
+            <li><a href="file:///C:/Users/ELCOT/Desktop/New%20folder/mini.html" class="hover:text-yellow-300">HOME</a></li>
+            <li><a href="file:///C:/Users/ELCOT/Desktop/New%20folder/mini2.html" class="hover:text-yellow-300">ABOUT US</a></li>
+            <li><a href="file:///D:/New%20folder/css/minicarpic1.html" class="hover:text-yellow-300">COLLECTION</a></li>
+            <li><a href="file:///D:/New%20folder/css/mini4.html#" class="hover:text-yellow-300">CONTACT</a></li>
+        </ul>
+
+        <!-- Mobile Button -->
+		 <input type="checkbox" id="menu" class="peer hidden">
+
+<label for="menu" class="md:hidden text-4xl cursor-pointer">
+    ☰
+</label>
+
+<div class="hidden peer-checked:block md:hidden bg-[#D42400]">
+    <a href="mini.html" class="block px-6 p-5 py-3">HOME</a>
+    <a href="mini2.html" class="block px-6 p-5 py-3">ABOUT US</a>
+    <a href="minicarpic1.html" class="block p-5 px-6 py-3">COLLECTION</a>
+    <a href="mini4.html" class="block px-6 p-5 py-3">CONTACT</a>
+</div>
+   </input>
+      
+
+    </div>
+	
+	
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#D42400]">
+
+        <a href="mini.html" class="block px-6 py-3 hover:bg-red-700">HOME</a>
+
+        <a href="mini2.html" class="block px-6 py-3 hover:bg-red-700">ABOUT US</a>
+
+        <a href="file:///D:/New%20folder/css/minicarpic1.html" class="block px-6 py-3 hover:bg-red-700">COLLECTION</a>
+
+        <a href="contact.html" class="block px-6 py-3 hover:bg-red-700">CONTACT</a>
+
+    </div>
+
+</nav> 
+
+<div class="max-w-7xl mx-auto p-6">
+
+    <!-- Heading -->
+    <h1 class="text-5xl font-light">Discover all BMW models.</h1>
+    <p class="mt-3 text-gray-600 text-lg">
+        Explore the entire BMW model range and find the vehicle that perfectly
+        matches your preferences and needs.
+    </p>
+
+    <!-- Dropdown -->
+    <div class="flex justify-end mt-6">
+        <select class="border p-2 w-52 rounded">
+            <option>Default</option>
+            <option>Price Low to High</option>
+            <option>Price High to Low</option>
+        </select>
+    </div>
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 mt-8">
+
+        <!-- Left Sidebar -->
+        <div class="bg-white p-5 rounded shadow">
+
+            <h2 class="text-2xl mb-5">Categories</h2>
+
+            <div class="grid grid-cols-2 gap-3">
+
+                <button class="border p-5 rounded hover:bg-gray-100">
+                    🚙 <br> SUV
+                </button>
+
+                <button class="border p-5 rounded hover:bg-gray-100">
+                    🚗 <br> Sedan
+                </button>
+
+                <button class="border p-5 rounded hover:bg-gray-100">
+                    🏎️ <br> Coupe
+                </button>
+
+                <button class="border p-5 rounded hover:bg-gray-100">
+                    🚘 <br> Convertible
+                </button>
+
+            </div>
+
+            <hr class="my-6">
+
+            <h2 class="text-xl">Drivetrain Variants</h2>
+
+            <div class="mt-4 space-y-3">
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2">
+                    Electric
+                </label>
+
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2">
+                    Petrol
+                </label>
+
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2">
+                    Diesel
+                </label>
+
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2">
+                    Hybrid
+                </label>
+            </div>
+
+        </div>
+
+        <!-- Right Content -->
+        <div class="lg:col-span-3">
+
+            <h2 class="text-3xl font-light mb-5">
+                Full Electric (4)
+            </h2>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+
+                <!-- Card -->
+                <div class="bg-white rounded shadow overflow-hidden">
+                    <img src="C:\Users\ELCOT\Downloads\ChatGPT Image Jul 11, 2026, 12_51_50 AM.png" class="w-full h-52 object-cover">
+                    <div class="p-4">
+                        <span class="bg-gray-200 px-2 text-sm">SUV</span>
+                        <h3 class="text-3xl mt-3">iX1 LWB</h3>
+                        <p class="text-gray-500">Models</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="bg-white rounded shadow overflow-hidden">
+                    <img src="C:\Users\ELCOT\Downloads\ChatGPT Image Jul 11, 2026, 12_59_48 AM.png" class="w-full h-52 object-cover">
+                    <div class="p-4">
+                        <span class="bg-gray-200 px-2 text-sm">Sedan</span>
+                        <h3 class="text-3xl mt-3">i7</h3>
+                        <p class="text-gray-500">Models</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="bg-white rounded shadow overflow-hidden">
+                    <img src="C:\Users\ELCOT\Downloads\ChatGPT Image Jul 11, 2026, 01_02_42 AM.png" class="w-full h-52 object-cover">
+                    <div class="p-4">
+                        <span class="bg-gray-200 px-2 text-sm">Sedan</span>
+                        <h3 class="text-3xl mt-3">i7 M</h3>
+                        <p class="text-gray-500">M Model</p>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="bg-white rounded shadow overflow-hidden">
+                    <img src="C:\Users\ELCOT\Downloads\ChatGPT Image Jul 11, 2026, 01_02_42 AM.png" class="w-full h-52 object-cover">
+                    <div class="p-4">
+                        <span class="bg-gray-200 px-2 text-sm">SUV</span>
+                        <h3 class="text-3xl mt-3">iX</h3>
+                        <p class="text-gray-500">Electric</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+     
+
+
+
+</body>
+</html>
