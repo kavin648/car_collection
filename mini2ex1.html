@@ -6,7 +6,59 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-gray-150">
+	
+   <nav class="bg-[#D42400] text-white fixed top-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-5 py-4">
 
+        <!-- Logo -->
+        <div class="flex items-center gap-3">
+            <img src="img\header_logo.png" class="h-10">
+            <h1 class="text-3xl font-bold">FUSION CARS</h1>
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex gap-8 font-semibold">
+            <li><a href="index.html" class="hover:text-yellow-300">HOME</a></li>
+            <li><a href="mini2.html" class="hover:text-yellow-300">ABOUT US</a></li>
+            <li><a href="minicarpic1.html" class="hover:text-yellow-300">COLLECTION</a></li>
+            <li><a href="mini4.html" class="hover:text-yellow-300">CONTACT</a></li>
+        </ul>
+
+        <!-- Mobile Button -->
+		 <input type="checkbox" id="menu" class="peer hidden">
+
+<label for="menu" class="md:hidden text-4xl cursor-pointer">
+    ☰
+</label>
+
+<div class="hidden peer-checked:block md:hidden bg-[#D42400]">
+    <a href="index.html" class="block px-6 p-5 py-3">HOME</a>
+    <a href="mini2.html" class="block px-6 p-5 py-3">ABOUT US</a>
+    <a href="minicarpic1.html" class="block p-5 px-6 py-3">COLLECTION</a>
+    <a href="mini4.html" class="block px-6 p-5 py-3">CONTACT</a>
+</div>
+   </input>
+      
+
+    </div>
+	
+	
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#D42400]">
+
+        <a href="index.html" class="block px-6 py-3 hover:bg-red-700">HOME</a>
+
+        <a href="mini2.html" class="block px-6 py-3 hover:bg-red-700">ABOUT US</a>
+
+        <a href="minicarpic1.html" class="block px-6 py-3 hover:bg-red-700">COLLECTION</a>
+
+        <a href="mini4.html" class="block px-6 py-3 hover:bg-red-700">CONTACT</a>
+
+    </div>
+
+</nav> <br><br><br>
+	
 <div class="max-w-7xl mx-auto bg-white shadow-lg rounded-xl mt-5 p-5">
 
     <!-- Car Name -->
